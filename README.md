@@ -61,3 +61,7 @@
 
 <img width="355" alt="Screenshot 2023-10-12 at 11 47 10" src="https://github.com/SaintpatrickII/Azure-Database-Migration/assets/92804317/52c7d567-9f2b-4325-b394-ec25374af2d3">
 
+- We should now see the AdventureWorks2022 Table in out list of databases
+
+# Milestone 3 Migrate to Azure SQL Database
+
