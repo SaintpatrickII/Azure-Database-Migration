@@ -36,6 +36,19 @@
 
 - Find Windows Remote Desktop on the app store download this application, once open we can drag & drop the .rdp file to access the VM
 
+- Open the Virtual Machine: DO NOT ALLOW PUBLIC CONNECTIONS on first boot up
+
 <img width="693" alt="Screenshot 2023-10-11 at 12 21 54" src="https://github.com/SaintpatrickII/Azure-Database-Migration/assets/92804317/67dfb943-5a1c-4b9f-9dc0-710f889821d6">
 
 <img width="352" alt="Screenshot 2023-10-11 at 12 22 24" src="https://github.com/SaintpatrickII/Azure-Database-Migration/assets/92804317/7c0cf0e2-306a-4d9d-b3d3-afac9f3ea692">
+
+3. Install SQL Server & SSMS
+
+- Follow this link on your remote desktop browser https://go.microsoft.com/fwlink/p/?linkid=2215158&clcid=0x809&culture=en-gb&country=gb to install SQL Server & select Basic for the installation type
+
+- At end of instillation you will have the option to also install SSMS, the link can also be found here https://aka.ms/ssmsfullsetup
+
+- Once both are installed, lets open SSMS, we should be greeted by this window & just click connect
+
+<img width="1655" alt="Screenshot 2023-10-12 at 10 49 35" src="https://github.com/SaintpatrickII/Azure-Database-Migration/assets/92804317/24e92f75-05a6-4584-92e9-0e7ae6365483">
+
