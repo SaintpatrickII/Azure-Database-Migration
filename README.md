@@ -22,6 +22,6 @@
 
 ![Screenshot 2023-10-11 at 12 07 50](https://github.com/SaintpatrickII/Azure-Database-Migration/assets/92804317/166a6540-6886-41c2-8dfc-e5cc5ff9a4ca)
 
-- Once created click the connect icon
+- Once created click the connect icon, this brings you to a page where we can download the RDP file to add the VM
   
 ![Screenshot 2023-10-11 at 12 16 39](https://github.com/SaintpatrickII/Azure-Database-Migration/assets/92804317/15c39cb4-7937-443f-91ae-fb808efe9101)
