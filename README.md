@@ -1,4 +1,4 @@
-# azure-Database-Migration
+# Azure-Database-Migration
 
 # Milestone 2 Set up the Production Environment:
 
