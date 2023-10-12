@@ -52,3 +52,11 @@
 
 <img width="1655" alt="Screenshot 2023-10-12 at 10 49 35" src="https://github.com/SaintpatrickII/Azure-Database-Migration/assets/92804317/24e92f75-05a6-4584-92e9-0e7ae6365483">
 
+4. Create the Production Database
+
+- Install the file linked here https://aicore-portal-public-prod-307050600709.s3.eu-west-1.amazonaws.com/project-files/93dd5a0c-212d-48eb-ad51-df521a9b4e9c/AdventureWorks2022.bak
+
+- Right-click on 'database' on SSMS, then 'restore`, note here that restore will look in a specific MSSQL folder for backup .bak files as pictured below, we should move the .bak folder from downloads into this MSSQL backup folder, screenshot below shows filepath to it
+
+<img width="355" alt="Screenshot 2023-10-12 at 11 47 10" src="https://github.com/SaintpatrickII/Azure-Database-Migration/assets/92804317/52c7d567-9f2b-4325-b394-ec25374af2d3">
+
