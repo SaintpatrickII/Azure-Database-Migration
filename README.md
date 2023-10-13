@@ -75,7 +75,7 @@
 
 - Now lets Create that SQL Database, search SQL Database!
 
-- ![Screenshot 2023-10-13 at 15 50 54](https://github.com/SaintpatrickII/Azure-Database-Migration/assets/92804317/90b183dd-503d-4721-a0b5-4488080633cc)
+![Screenshot 2023-10-13 at 15 50 54](https://github.com/SaintpatrickII/Azure-Database-Migration/assets/92804317/90b183dd-503d-4721-a0b5-4488080633cc)
 
 - IMPORTANT, ON STORAGE SELECT BASIC
 
