@@ -65,6 +65,20 @@
 
 # Milestone 3 Migrate to Azure SQL Database
 
-- Firstly in Azure, find SQL server, which we will host the database on
+- Firstly in Azure, find SQL Database server, which we will host the database on & begin by creating a SQL Satabase Server
 
 ![Screenshot 2023-10-13 at 15 42 23](https://github.com/SaintpatrickII/Azure-Database-Migration/assets/92804317/b37c8da5-6fe6-41b9-b83b-a8791c6efe7c)
+
+- Connect the SQL Database server to your resource group, give it a name & location, then use SQL authentication to create login details
+
+![Screenshot 2023-10-13 at 15 44 11](https://github.com/SaintpatrickII/Azure-Database-Migration/assets/92804317/2fbfc7ab-963d-430c-91e3-fc674cef1f76)
+
+- Now lets Create that SQL Database, search SQL Database!
+
+- ![Screenshot 2023-10-13 at 15 50 54](https://github.com/SaintpatrickII/Azure-Database-Migration/assets/92804317/90b183dd-503d-4721-a0b5-4488080633cc)
+
+- IMPORTANT, ON STORAGE SELECT BASIC
+
+![Screenshot 2023-10-13 at 15 51 37](https://github.com/SaintpatrickII/Azure-Database-Migration/assets/92804317/1877f556-c9c4-406d-9e2d-8ab103c3a5f3)
+
+
