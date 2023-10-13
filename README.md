@@ -65,3 +65,6 @@
 
 # Milestone 3 Migrate to Azure SQL Database
 
+- Firstly in Azure, find SQL server, which we will host the database on
+
+![Screenshot 2023-10-13 at 15 42 23](https://github.com/SaintpatrickII/Azure-Database-Migration/assets/92804317/b37c8da5-6fe6-41b9-b83b-a8791c6efe7c)
