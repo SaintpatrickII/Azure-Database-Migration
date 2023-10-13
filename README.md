@@ -81,4 +81,19 @@
 
 ![Screenshot 2023-10-13 at 15 51 37](https://github.com/SaintpatrickII/Azure-Database-Migration/assets/92804317/1877f556-c9c4-406d-9e2d-8ab103c3a5f3)
 
+- Once created, let's add a firewall rule, set public network access to 'selected networks'
+
+![Screenshot 2023-10-13 at 15 54 16](https://github.com/SaintpatrickII/Azure-Database-Migration/assets/92804317/aee3d874-0260-4773-bf81-d278f1a4b8d7)
+
+![Screenshot 2023-10-13 at 15 54 33](https://github.com/SaintpatrickII/Azure-Database-Migration/assets/92804317/b5d609ba-0b2e-4512-8c15-6cd94d4a637a)
+
+- Go back to your VM & fetch your local IP
+
+![Screenshot 2023-10-13 at 17 50 43](https://github.com/SaintpatrickII/Azure-Database-Migration/assets/92804317/ea194e28-9682-4311-a3e5-ccb29a0292d3)
+
+- Now let's add a firewall, have both start and end Ipv4 Address as the IP
+
+![Screenshot 2023-10-13 at 18 00 48](https://github.com/SaintpatrickII/Azure-Database-Migration/assets/92804317/c1bb6099-0caf-42f2-b110-34a732dc7d45)
+
+
 
