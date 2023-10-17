@@ -176,5 +176,52 @@
 
 ![Screenshot 2023-10-17 at 15 20 02](https://github.com/SaintpatrickII/Azure-Database-Migration/assets/92804317/0046b0ba-d418-4e59-b63b-19270255be18)
 
+- Now that's all setup, we can refresh the setup wizards & our DB Migration Service
+
+<img width="1027" alt="Screenshot 2023-10-17 at 15 23 12" src="https://github.com/SaintpatrickII/Azure-Database-Migration/assets/92804317/2ed86187-4e2c-4f49-9244-77dd8e924c6c">
+
+- We need to download & install the integration runtime on our VM & copy one of the keys
+
+<img width="1027" alt="Screenshot 2023-10-17 at 16 05 55" src="https://github.com/SaintpatrickII/Azure-Database-Migration/assets/92804317/82594e32-f9ab-41ff-9c4a-6a1d4b641f2a">
+
+- Here just install the newest runtime ( for me was the bottom one)
+
+<img width="1027" alt="Screenshot 2023-10-17 at 16 07 32" src="https://github.com/SaintpatrickII/Azure-Database-Migration/assets/92804317/2dd4675d-58bd-439f-a732-0b384ba94b5f">
+
+- Add the key to the runtime & press register, DO NOT enable remote access
+
+<img width="780" alt="Screenshot 2023-10-17 at 16 12 46" src="https://github.com/SaintpatrickII/Azure-Database-Migration/assets/92804317/6d60103e-d5d8-4448-a307-83da2c9cfd68">
+
+<img width="780" alt="Screenshot 2023-10-17 at 16 14 01" src="https://github.com/SaintpatrickII/Azure-Database-Migration/assets/92804317/4e65a413-91c6-4ded-af94-08d4fe940f42">
+
+- Now let's 'Launch Configuration Manager', which will allow us to move to the 5th step
+
+<img width="780" alt="Screenshot 2023-10-17 at 16 15 32" src="https://github.com/SaintpatrickII/Azure-Database-Migration/assets/92804317/a38a5f8e-fb83-4270-8be0-d8ec28f89a71">
+
+<img width="1020" alt="Screenshot 2023-10-17 at 16 16 10" src="https://github.com/SaintpatrickII/Azure-Database-Migration/assets/92804317/89c4502b-5077-466c-949e-933ca0f6595a">
+
+- Enter our VM credentials & edit the table selection to include all tables
+
+<img width="1020" alt="Screenshot 2023-10-17 at 16 16 59" src="https://github.com/SaintpatrickII/Azure-Database-Migration/assets/92804317/1a067d62-6754-4386-aca7-1a96ae1e9637">
+
+- Before we finish RUN VALIDATION
+
+<img width="1020" alt="Screenshot 2023-10-17 at 16 17 26" src="https://github.com/SaintpatrickII/Azure-Database-Migration/assets/92804317/74a1a48a-a476-4a40-8416-417a83a3f4da">
+
+- Finally, let's START MIGRATION
+
+<img width="1020" alt="Screenshot 2023-10-17 at 16 17 41" src="https://github.com/SaintpatrickII/Azure-Database-Migration/assets/92804317/4c1bf8b7-6f00-448d-8884-9542c38c076c">
+
+- We can check the status of our migration here
+
+<img width="1020" alt="Screenshot 2023-10-17 at 16 18 43" src="https://github.com/SaintpatrickII/Azure-Database-Migration/assets/92804317/6e47cec7-f18c-45c3-9184-d4f77eec87dc">
+
+- Now we wait for the data to migrate :)
+
+5. Validate Migration Success
+
+- right click any table & 'select top 1000' to verify migration
+
+<img width="1020" alt="Screenshot 2023-10-17 at 17 04 10" src="https://github.com/SaintpatrickII/Azure-Database-Migration/assets/92804317/accf08ea-b57b-4ca1-a9ea-16df8011f18b">
 
 
