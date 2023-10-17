@@ -65,6 +65,8 @@
 
 # Milestone 3 Migrate to Azure SQL Database
 
+1. Set Up Azure SQL Database
+
 - Firstly in Azure, find SQL Database server, which we will host the database on & begin by creating a SQL Satabase Server
 
 ![Screenshot 2023-10-13 at 15 42 23](https://github.com/SaintpatrickII/Azure-Database-Migration/assets/92804317/b37c8da5-6fe6-41b9-b83b-a8791c6efe7c)
