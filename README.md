@@ -132,7 +132,49 @@
 
 <img width="1039" alt="Screenshot 2023-10-17 at 14 48 19" src="https://github.com/SaintpatrickII/Azure-Database-Migration/assets/92804317/d3093e07-f657-4657-a124-ed4d88b0fc1f">
 
+5. Data Migration
 
+- Install SQL Migration Extension
+
+<img width="1039" alt="Screenshot 2023-10-17 at 15 11 10" src="https://github.com/SaintpatrickII/Azure-Database-Migration/assets/92804317/93fc9165-0f85-4f41-aec0-2e14287ca913">
+
+- Click 'Manage on local DB we want to migrate to Azure SQL Database
+
+<img width="1039" alt="Screenshot 2023-10-17 at 15 12 09" src="https://github.com/SaintpatrickII/Azure-Database-Migration/assets/92804317/09538728-1b23-4b03-9413-edd82ac76d2d">
+
+- Click Migrate to Azure SQL under Azure SQL Migration
+
+<img width="1039" alt="Screenshot 2023-10-17 at 15 12 38" src="https://github.com/SaintpatrickII/Azure-Database-Migration/assets/92804317/8ac16b71-0ef1-41f6-9df8-2ba37100ecf5">
+
+- Select Database we want to migrate And press Next
+
+<img width="1039" alt="Screenshot 2023-10-17 at 15 12 49" src="https://github.com/SaintpatrickII/Azure-Database-Migration/assets/92804317/ef96b2eb-cb76-406f-a3bf-7ed292c1c3f4">
+
+- Choose Azure SQL Database as migration choice
+
+<img width="1039" alt="Screenshot 2023-10-17 at 15 15 39" src="https://github.com/SaintpatrickII/Azure-Database-Migration/assets/92804317/34aaa1b5-aade-4729-a79e-31ce22bbcf6e">
+
+- Before continuing, ensure we assess the Database for suitability
+  
+<img width="1039" alt="Screenshot 2023-10-17 at 15 16 05" src="https://github.com/SaintpatrickII/Azure-Database-Migration/assets/92804317/a89ad2ac-029f-4747-a87a-8c41ee9f2f35">
+
+<img width="1039" alt="Screenshot 2023-10-17 at 15 15 57" src="https://github.com/SaintpatrickII/Azure-Database-Migration/assets/92804317/f3e8c735-e96f-4e14-aaa6-539c1401c6ac">
+
+- Now let's select the Azure SQL target, we need the location, resource group, DB Server & our login credentials
+
+<img width="1039" alt="Screenshot 2023-10-17 at 15 17 51" src="https://github.com/SaintpatrickII/Azure-Database-Migration/assets/92804317/fe328bff-74ff-4907-95b2-b5fbbd494876">
+
+- Once we connect we can select the SQL Database target
+
+<img width="1039" alt="Screenshot 2023-10-17 at 15 18 05" src="https://github.com/SaintpatrickII/Azure-Database-Migration/assets/92804317/c5b7893c-114a-4931-b606-2be8bd899200">
+
+- Before we continue, we need to add Azure Database Migration Services onto our resource group
+
+![Screenshot 2023-10-17 at 15 19 06](https://github.com/SaintpatrickII/Azure-Database-Migration/assets/92804317/0cb45e1e-d173-4ceb-9ba2-cf3d4a24ca84)
+
+![Screenshot 2023-10-17 at 15 19 28](https://github.com/SaintpatrickII/Azure-Database-Migration/assets/92804317/f9fa19ce-7855-4e09-b242-babc937ebc06)
+
+![Screenshot 2023-10-17 at 15 20 02](https://github.com/SaintpatrickII/Azure-Database-Migration/assets/92804317/0046b0ba-d418-4e59-b63b-19270255be18)
 
 
 
