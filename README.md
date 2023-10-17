@@ -97,5 +97,17 @@
 
 ![Screenshot 2023-10-13 at 18 00 48](https://github.com/SaintpatrickII/Azure-Database-Migration/assets/92804317/c1bb6099-0caf-42f2-b110-34a732dc7d45)
 
+2. Prepare for Migration
+
+- Install Azure Data Studio on the VM using this link https://go.microsoft.com/fwlink/?linkid=2242848
+
+- During installation tick all boxes
+
+<img width="602" alt="Screenshot 2023-10-17 at 13 12 20" src="https://github.com/SaintpatrickII/Azure-Database-Migration/assets/92804317/0a2cf0c9-a990-4eb6-8f6f-501e572b4f83">
+
+- Connect to SQL database using SQL login
+
+<img width="1039" alt="Screenshot 2023-10-17 at 13 22 14" src="https://github.com/SaintpatrickII/Azure-Database-Migration/assets/92804317/f46d0f6d-8606-44a5-bed3-7ea73ed8dc68">
+
 
 
