@@ -102,15 +102,18 @@
 
 - During installation tick all boxes
 
+<img width="1039" alt="Screenshot 2023-10-17 at 13 53 09" src="https://github.com/SaintpatrickII/Azure-Database-Migration/assets/92804317/de8d1401-03ba-4617-863b-844d6730bd3d">
+
+
 - Login to localhost with windows authentication to connect to the local SSMS Server
 
-<img width="1039" alt="Screenshot 2023-10-17 at 13 53 09" src="https://github.com/SaintpatrickII/Azure-Database-Migration/assets/92804317/de8d1401-03ba-4617-863b-844d6730bd3d">
+
+<img width="602" alt="Screenshot 2023-10-17 at 13 12 20" src="https://github.com/SaintpatrickII/Azure-Database-Migration/assets/92804317/0a2cf0c9-a990-4eb6-8f6f-501e572b4f83">
 
 
 3. Connect to Azure SQL Database
 
 - Connect to SQL database using SQL login
-<img width="602" alt="Screenshot 2023-10-17 at 13 12 20" src="https://github.com/SaintpatrickII/Azure-Database-Migration/assets/92804317/0a2cf0c9-a990-4eb6-8f6f-501e572b4f83">
 <img width="1039" alt="Screenshot 2023-10-17 at 13 22 14" src="https://github.com/SaintpatrickII/Azure-Database-Migration/assets/92804317/f46d0f6d-8606-44a5-bed3-7ea73ed8dc68">
 
 4. Schema Migration
