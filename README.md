@@ -120,10 +120,19 @@
 
 <img width="1039" alt="Screenshot 2023-10-17 at 14 00 20" src="https://github.com/SaintpatrickII/Azure-Database-Migration/assets/92804317/0607c973-3b82-4a77-97f9-d012b7e06b94">
 
-- Right click on localhost, comapre scheme to Azure SQL Database, ensure localhost is source & SQL Database is target
+- Right click on localhost, comapre scheme to Azure SQL Database, ensure localhost is source & SQL Database is target, also ensure the target database is the SQL Database we have created
 
 <img width="1039" alt="Screenshot 2023-10-17 at 14 03 19" src="https://github.com/SaintpatrickII/Azure-Database-Migration/assets/92804317/0960754e-c90a-415d-bab4-3ff724af7333">
 
+<img width="1039" alt="Screenshot 2023-10-17 at 14 30 08" src="https://github.com/SaintpatrickII/Azure-Database-Migration/assets/92804317/83d53039-ae25-4bda-a350-5730a5ae41f6">
+
+- Start the Schema comparison & Accept all changes
+
+<img width="1039" alt="Screenshot 2023-10-17 at 14 32 49" src="https://github.com/SaintpatrickII/Azure-Database-Migration/assets/92804317/3d827b87-d92b-4e02-b751-461cb435e6df">
+
+- We can now see all of the schemas have been added to our Azure SQL Database
+
+<img width="1039" alt="Screenshot 2023-10-17 at 14 48 19" src="https://github.com/SaintpatrickII/Azure-Database-Migration/assets/92804317/d3093e07-f657-4657-a124-ed4d88b0fc1f">
 
 
 
