@@ -111,11 +111,19 @@
 3. Connect to Azure SQL Database
 
 - Connect to SQL database using SQL login
+
 <img width="1039" alt="Screenshot 2023-10-17 at 13 22 14" src="https://github.com/SaintpatrickII/Azure-Database-Migration/assets/92804317/f46d0f6d-8606-44a5-bed3-7ea73ed8dc68">
 
 4. Schema Migration
 
-- 
+- Install SQL Server Schema Compare
+
+<img width="1039" alt="Screenshot 2023-10-17 at 14 00 20" src="https://github.com/SaintpatrickII/Azure-Database-Migration/assets/92804317/0607c973-3b82-4a77-97f9-d012b7e06b94">
+
+- Right click on localhost, comapre scheme to Azure SQL Database, ensure localhost is source & SQL Database is target
+
+<img width="1039" alt="Screenshot 2023-10-17 at 14 03 19" src="https://github.com/SaintpatrickII/Azure-Database-Migration/assets/92804317/0960754e-c90a-415d-bab4-3ff724af7333">
+
 
 
 
