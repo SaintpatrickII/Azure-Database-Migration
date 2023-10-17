@@ -52,7 +52,6 @@
 
 <img width="1655" alt="Screenshot 2023-10-12 at 10 49 35" src="https://github.com/SaintpatrickII/Azure-Database-Migration/assets/92804317/24e92f75-05a6-4584-92e9-0e7ae6365483">
 
-
 4. Create the Production Database
 
 - Install the file linked here https://aicore-portal-public-prod-307050600709.s3.eu-west-1.amazonaws.com/project-files/93dd5a0c-212d-48eb-ad51-df521a9b4e9c/AdventureWorks2022.bak
@@ -103,11 +102,20 @@
 
 - During installation tick all boxes
 
+
 <img width="602" alt="Screenshot 2023-10-17 at 13 12 20" src="https://github.com/SaintpatrickII/Azure-Database-Migration/assets/92804317/0a2cf0c9-a990-4eb6-8f6f-501e572b4f83">
+
+3. Connect to Azure SQL Database
 
 - Connect to SQL database using SQL login
 
 <img width="1039" alt="Screenshot 2023-10-17 at 13 22 14" src="https://github.com/SaintpatrickII/Azure-Database-Migration/assets/92804317/f46d0f6d-8606-44a5-bed3-7ea73ed8dc68">
+
+4. Schema Migration
+
+- 
+
+
 
 
 
