@@ -122,8 +122,6 @@
 
 - Right click on localhost, comapre scheme to Azure SQL Database, ensure localhost is source & SQL Database is target, also ensure the target database is the SQL Database we have created
 
-<img width="1039" alt="Screenshot 2023-10-17 at 14 03 19" src="https://github.com/SaintpatrickII/Azure-Database-Migration/assets/92804317/0960754e-c90a-415d-bab4-3ff724af7333">
-
 <img width="1039" alt="Screenshot 2023-10-17 at 14 30 08" src="https://github.com/SaintpatrickII/Azure-Database-Migration/assets/92804317/83d53039-ae25-4bda-a350-5730a5ae41f6">
 
 - Start the Schema comparison & Accept all changes
