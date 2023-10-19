@@ -220,8 +220,20 @@
 
 5. Validate Migration Success
 
-- right click any table & 'select top 1000' to verify migration
+- right click any table & 'select top 1000' to verify the migration
 
 <img width="1020" alt="Screenshot 2023-10-17 at 17 04 10" src="https://github.com/SaintpatrickII/Azure-Database-Migration/assets/92804317/accf08ea-b57b-4ca1-a9ea-16df8011f18b">
 
+# Milestone 4: Data Backup and Restore
 
+- On SSMS Connect to on-premise SQL Server, right-click the database, then tasks & backup
+
+<img width="733" alt="Screenshot 2023-10-19 at 11 22 24" src="https://github.com/SaintpatrickII/Azure-Database-Migration/assets/92804317/b4d9f69f-2ce8-42a3-90c7-6a64ee0997b7">
+
+- Rename the backup to something descriptive
+
+<img width="911" alt="Screenshot 2023-10-19 at 11 37 06" src="https://github.com/SaintpatrickII/Azure-Database-Migration/assets/92804317/42b929f3-6adf-4a7d-8d31-5fd20a803d79">
+
+- Click 'Ok' to backup our database
+
+<img width="911" alt="Screenshot 2023-10-19 at 11 37 35" src="https://github.com/SaintpatrickII/Azure-Database-Migration/assets/92804317/16494819-73ac-4814-bef5-5e5f9e26580c">
