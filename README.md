@@ -226,6 +226,8 @@
 
 # Milestone 4: Data Backup and Restore
 
+1. Backup the On-Preminse Database
+
 - On SSMS Connect to on-premise SQL Server, right-click the database, then tasks & backup
 
 <img width="733" alt="Screenshot 2023-10-19 at 11 22 24" src="https://github.com/SaintpatrickII/Azure-Database-Migration/assets/92804317/b4d9f69f-2ce8-42a3-90c7-6a64ee0997b7">
