@@ -228,7 +228,7 @@
 
 1. Backup the On-Preminse Database
 
-- On SSMS Connect to on-premise SQL Server, right-click the database, then tasks & backup
+- On SSMS Connect to the on-premise SQL Server, right-click the database, then tasks & backup
 
 <img width="733" alt="Screenshot 2023-10-19 at 11 22 24" src="https://github.com/SaintpatrickII/Azure-Database-Migration/assets/92804317/b4d9f69f-2ce8-42a3-90c7-6a64ee0997b7">
 
@@ -239,3 +239,23 @@
 - Click 'Ok' to backup our database
 
 <img width="911" alt="Screenshot 2023-10-19 at 11 37 35" src="https://github.com/SaintpatrickII/Azure-Database-Migration/assets/92804317/16494819-73ac-4814-bef5-5e5f9e26580c">
+
+2. Upload Backup to Blob Storage
+
+- On the VM, Let's log in to Azure & create a storage account, we need to create this with a unique name (like S3 buckets) & link it to the resource group
+
+<img width="846" alt="Screenshot 2023-10-20 at 13 08 36" src="https://github.com/SaintpatrickII/Azure-Database-Migration/assets/92804317/f1d47947-5d86-4bde-bfac-df68a1ab3331">
+
+- Once created click upload
+
+<img width="846" alt="Screenshot 2023-10-20 at 13 13 53" src="https://github.com/SaintpatrickII/Azure-Database-Migration/assets/92804317/c15841d0-9820-44be-b3ed-6669e01a68a0">
+
+- We will be required to create a name for the container, this doesn't have to be universally unique, just unique to your storage account
+
+<img width="576" alt="Screenshot 2023-10-20 at 13 14 35" src="https://github.com/SaintpatrickII/Azure-Database-Migration/assets/92804317/bf4dfe69-f96b-4b8c-9f36-ce925969d069">
+
+- Let's press upload & find our backup file, this will be in the backup folder (will need to find the bak file in MSSQL folder
+
+<img width="825" alt="Screenshot 2023-10-20 at 13 15 33" src="https://github.com/SaintpatrickII/Azure-Database-Migration/assets/92804317/6347c862-8d41-4551-b17f-63662b575b8d">
+
+
