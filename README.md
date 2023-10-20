@@ -254,8 +254,10 @@
 
 <img width="576" alt="Screenshot 2023-10-20 at 13 14 35" src="https://github.com/SaintpatrickII/Azure-Database-Migration/assets/92804317/bf4dfe69-f96b-4b8c-9f36-ce925969d069">
 
-- Let's press upload & find our backup file, this will be in the backup folder (will need to find the bak file in MSSQL folder
+- Let's press upload & find our backup file, this will be in the backup folder (will need to find the bak file in MSSQL folder)
 
 <img width="825" alt="Screenshot 2023-10-20 at 13 15 33" src="https://github.com/SaintpatrickII/Azure-Database-Migration/assets/92804317/6347c862-8d41-4551-b17f-63662b575b8d">
 
+3. Restore Database on Development Environment
 
+- Let's create a new VM with its own SQL Server & Database, following set up from previous tasks
