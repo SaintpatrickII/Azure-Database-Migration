@@ -2,7 +2,7 @@
 
 # Milestone 2 Set up the Production Environment:
 
-1. Provision a Windows Virtual Machine
+#1. Provision a Windows Virtual Machine
 
 - Before creating a VM, we need to create a Resource group that will later contain all the infrastructure needed for this project
 
@@ -22,7 +22,7 @@
 
 ![Screenshot 2023-10-11 at 12 07 50](https://github.com/SaintpatrickII/Azure-Database-Migration/assets/92804317/166a6540-6886-41c2-8dfc-e5cc5ff9a4ca)
 
-2. Connect to the Windows Virtual Machine
+#2. Connect to the Windows Virtual Machine
 
 - Click the 'Connect' icon at the top right of the resource
   
@@ -42,7 +42,7 @@
 
 <img width="352" alt="Screenshot 2023-10-11 at 12 22 24" src="https://github.com/SaintpatrickII/Azure-Database-Migration/assets/92804317/7c0cf0e2-306a-4d9d-b3d3-afac9f3ea692">
 
-3. Install SQL Server & SSMS
+#3. Install SQL Server & SSMS
 
 - Follow this link on your remote desktop browser https://go.microsoft.com/fwlink/p/?linkid=2215158&clcid=0x809&culture=en-gb&country=gb to install SQL Server & select Basic for the installation type
 
@@ -52,7 +52,7 @@
 
 <img width="1655" alt="Screenshot 2023-10-12 at 10 49 35" src="https://github.com/SaintpatrickII/Azure-Database-Migration/assets/92804317/24e92f75-05a6-4584-92e9-0e7ae6365483">
 
-4. Create the Production Database
+#4. Create the Production Database
 
 - Install the file linked here https://aicore-portal-public-prod-307050600709.s3.eu-west-1.amazonaws.com/project-files/93dd5a0c-212d-48eb-ad51-df521a9b4e9c/AdventureWorks2022.bak
 
@@ -64,7 +64,7 @@
 
 # Milestone 3 Migrate to Azure SQL Database
 
-1. Set Up Azure SQL Database
+#1. Set Up Azure SQL Database
 
 - Firstly in Azure, find SQL Database server, which we will host the database on & begin by creating a SQL Satabase Server
 
@@ -96,7 +96,7 @@
 
 ![Screenshot 2023-10-13 at 18 00 48](https://github.com/SaintpatrickII/Azure-Database-Migration/assets/92804317/c1bb6099-0caf-42f2-b110-34a732dc7d45)
 
-2. Prepare for Migration
+#2. Prepare for Migration
 
 - Install Azure Data Studio on the VM using this link https://go.microsoft.com/fwlink/?linkid=2242848
 
@@ -108,13 +108,13 @@
 
 <img width="1039" alt="Screenshot 2023-10-17 at 13 53 09" src="https://github.com/SaintpatrickII/Azure-Database-Migration/assets/92804317/de8d1401-03ba-4617-863b-844d6730bd3d">
 
-3. Connect to Azure SQL Database
+#3. Connect to Azure SQL Database
 
 - Connect to SQL database using SQL login
 
 <img width="1039" alt="Screenshot 2023-10-17 at 13 22 14" src="https://github.com/SaintpatrickII/Azure-Database-Migration/assets/92804317/f46d0f6d-8606-44a5-bed3-7ea73ed8dc68">
 
-4. Schema Migration
+#4. Schema Migration
 
 - Install SQL Server Schema Compare
 
@@ -132,7 +132,7 @@
 
 <img width="1039" alt="Screenshot 2023-10-17 at 14 48 19" src="https://github.com/SaintpatrickII/Azure-Database-Migration/assets/92804317/d3093e07-f657-4657-a124-ed4d88b0fc1f">
 
-5. Data Migration
+#5. Data Migration
 
 - Install SQL Migration Extension
 
@@ -218,7 +218,7 @@
 
 - Now we wait for the data to migrate :)
 
-5. Validate Migration Success
+#5. Validate Migration Success
 
 - right click any table & 'select top 1000' to verify the migration
 
@@ -226,7 +226,7 @@
 
 # Milestone 4: Data Backup and Restore
 
-1. Backup the On-Preminse Database
+#1. Backup the On-Preminse Database
 
 - On SSMS Connect to the on-premise SQL Server, right-click the database, then tasks & backup
 
@@ -240,7 +240,7 @@
 
 <img width="911" alt="Screenshot 2023-10-19 at 11 37 35" src="https://github.com/SaintpatrickII/Azure-Database-Migration/assets/92804317/16494819-73ac-4814-bef5-5e5f9e26580c">
 
-2. Upload Backup to Blob Storage
+#2. Upload Backup to Blob Storage
 
 - On the VM, Let's log in to Azure & create a storage account, we need to create this with a unique name (like S3 buckets) & link it to the resource group
 
@@ -258,7 +258,7 @@
 
 <img width="825" alt="Screenshot 2023-10-20 at 13 15 33" src="https://github.com/SaintpatrickII/Azure-Database-Migration/assets/92804317/6347c862-8d41-4551-b17f-63662b575b8d">
 
-3. Restore Database on Development Environment
+#3. Restore Database on Development Environment
 
 - Let's create a new VM with its own SQL Server & Database, following set up from previous tasks
 
@@ -290,5 +290,5 @@
 
 <img width="1026" alt="Screenshot 2023-10-20 at 15 27 22" src="https://github.com/SaintpatrickII/Azure-Database-Migration/assets/92804317/fdbc2e98-08b9-4407-8ce5-5615118c7664">
 
-4. Automate Backups for Development Database
+#4. Automate Backups for Development Database
 
