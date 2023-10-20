@@ -261,3 +261,34 @@
 3. Restore Database on Development Environment
 
 - Let's create a new VM with its own SQL Server & Database, following set up from previous tasks
+
+- Once these are all set up, next step is to reinstall SSMS and Data Studio
+
+- On browser in VM, login to Azure & Access the blob we created in the previous task, if we go into the 'storage browser' and in our container we can find the .bak file to download
+
+<img width="1088" alt="Screenshot 2023-10-20 at 15 18 21" src="https://github.com/SaintpatrickII/Azure-Database-Migration/assets/92804317/c6a5f9f2-6f90-44c7-9f70-6d21ffaddc44">
+
+- Let's move the .bak file from our downloads file into the backup folder in our MSSQL folder
+
+<img width="1088" alt="Screenshot 2023-10-20 at 15 20 18" src="https://github.com/SaintpatrickII/Azure-Database-Migration/assets/92804317/912c5097-6132-4f80-acc6-045e38a8bfef">
+
+- On SSMS let's restore database & select our backup file
+
+<img width="1088" alt="Screenshot 2023-10-20 at 15 22 46" src="https://github.com/SaintpatrickII/Azure-Database-Migration/assets/92804317/b03a3191-b406-4b67-b91c-958eedf4c935">
+
+<img width="870" alt="Screenshot 2023-10-20 at 15 23 15" src="https://github.com/SaintpatrickII/Azure-Database-Migration/assets/92804317/692f276d-ef3f-4a5e-bf04-e22a0bfad642">
+
+<img width="870" alt="Screenshot 2023-10-20 at 15 23 35" src="https://github.com/SaintpatrickII/Azure-Database-Migration/assets/92804317/008c51ae-397d-4943-ba5a-0d36ea14c451">
+
+- Now thats backed up, lets connect to localhost on our Data Studio
+
+<img width="1026" alt="Screenshot 2023-10-20 at 15 26 48" src="https://github.com/SaintpatrickII/Azure-Database-Migration/assets/92804317/0fcf1a3f-8e93-4400-99a6-b45093ad2cad">
+
+- Once connected, let's query a table to ensure Data Migration Success
+
+<img width="1026" alt="Screenshot 2023-10-20 at 15 27 11" src="https://github.com/SaintpatrickII/Azure-Database-Migration/assets/92804317/432ba380-3084-41b0-87a8-fc0014963238">
+
+<img width="1026" alt="Screenshot 2023-10-20 at 15 27 22" src="https://github.com/SaintpatrickII/Azure-Database-Migration/assets/92804317/fdbc2e98-08b9-4407-8ce5-5615118c7664">
+
+4. Automate Backups for Development Database
+
