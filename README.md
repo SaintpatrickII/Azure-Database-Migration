@@ -338,4 +338,18 @@
 
 <img width="472" alt="Screenshot 2023-10-24 at 13 55 45" src="https://github.com/SaintpatrickII/Azure-Database-Migration/assets/92804317/0b239038-0fb9-4a5c-94fa-b37be27ad8e6">
 
+- Finally, let's modify the maintenance task to occur once a week on a Sunday :)
+
+<img width="328" alt="Screenshot 2023-10-24 at 15 23 56" src="https://github.com/SaintpatrickII/Azure-Database-Migration/assets/92804317/143c01e6-e034-40ae-9e22-ad885217ae28">
+
+<img width="670" alt="Screenshot 2023-10-24 at 15 24 07" src="https://github.com/SaintpatrickII/Azure-Database-Migration/assets/92804317/56a374ac-542e-4ce6-a2ca-abed884a1b54">
+
+- We can verify the backup by checking in our container
+
+<img width="1409" alt="Screenshot 2023-10-24 at 14 01 06" src="https://github.com/SaintpatrickII/Azure-Database-Migration/assets/92804317/9799fb55-c360-477e-83de-b0e023ba8a4b">
+
+# Milestone 5: Disaster Recovery Simulation
+
+# 1. Mimic Data Loss in Production Environment
+
 
