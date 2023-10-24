@@ -292,3 +292,21 @@
 
 # 4. Automate Backups for Development Database
 
+- The first step is to start the SQL Server Agent, we need the Agent in order to automate backups
+
+<img width="545" alt="Screenshot 2023-10-20 at 18 04 20" src="https://github.com/SaintpatrickII/Azure-Database-Migration/assets/92804317/48a70aa3-6ded-4f9e-9e90-ff6ed0d9b26e">
+
+- Now let's create a new query in our server in order to create credentials to link to our storage account
+
+<img width="545" alt="Screenshot 2023-10-20 at 18 05 56" src="https://github.com/SaintpatrickII/Azure-Database-Migration/assets/92804317/c89ec934-ee7a-4bbc-9579-115753f9d01e">
+
+- We need to go into our storage account to get both the account name & the key for our credentials
+
+![Screenshot 2023-10-20 at 18 07 10](https://github.com/SaintpatrickII/Azure-Database-Migration/assets/92804317/7759096a-d38b-40af-a736-a210196bedb9)
+
+- now we can create the credentials that will be needed during the maintenance plan
+
+<img width="848" alt="Screenshot 2023-10-24 at 13 58 34" src="https://github.com/SaintpatrickII/Azure-Database-Migration/assets/92804317/05badca8-a806-454f-a0d6-1165fdee1906">
+
+
+
