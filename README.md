@@ -304,9 +304,10 @@
 
 ![Screenshot 2023-10-20 at 18 07 10](https://github.com/SaintpatrickII/Azure-Database-Migration/assets/92804317/7759096a-d38b-40af-a736-a210196bedb9)
 
-- now we can create the credentials that will be needed during the maintenance plan
+- Now we can create the credentials that will be needed during the maintenance plan
 
 <img width="848" alt="Screenshot 2023-10-24 at 13 58 34" src="https://github.com/SaintpatrickII/Azure-Database-Migration/assets/92804317/05badca8-a806-454f-a0d6-1165fdee1906">
 
+- 
 
-
+Next Right clo=ick on maintenance plans
