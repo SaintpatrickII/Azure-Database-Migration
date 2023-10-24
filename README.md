@@ -308,6 +308,34 @@
 
 <img width="848" alt="Screenshot 2023-10-24 at 13 58 34" src="https://github.com/SaintpatrickII/Azure-Database-Migration/assets/92804317/05badca8-a806-454f-a0d6-1165fdee1906">
 
-- 
+- Now let's create the maintenance plan, right click on maintenance plans
 
-Next Right clo=ick on maintenance plans
+<img width="328" alt="Screenshot 2023-10-24 at 15 04 35" src="https://github.com/SaintpatrickII/Azure-Database-Migration/assets/92804317/da46b0a8-22f8-40eb-bb6d-53bf4949c66a">
+
+- Name the plan,for now, we won't add a schedule, then select the maintanence task we want to perform
+
+<img width="560" alt="Screenshot 2023-10-24 at 13 47 49" src="https://github.com/SaintpatrickII/Azure-Database-Migration/assets/92804317/7e9b4d42-b6ad-4c38-a96f-c96090021178">
+
+<img width="664" alt="Screenshot 2023-10-20 at 18 12 21" src="https://github.com/SaintpatrickII/Azure-Database-Migration/assets/92804317/bef1fbe0-387d-45b8-aa31-770f98387773">
+
+- Select the Database to Backup & backup to URL
+
+<img width="573" alt="Screenshot 2023-10-24 at 13 03 30" src="https://github.com/SaintpatrickII/Azure-Database-Migration/assets/92804317/760f9f32-f045-4b4f-a98e-4ad4a28690f6">
+
+- Moving to the destination tab, lets select our credentials & enter the same container as the one we created for our storage account
+
+<img width="560" alt="Screenshot 2023-10-24 at 13 54 24" src="https://github.com/SaintpatrickII/Azure-Database-Migration/assets/92804317/38100bea-0466-4898-85fd-5dd7889f0ca7">
+
+- Let's finalise the maintenance plan & refresh to get our now plan!
+
+<img width="560" alt="Screenshot 2023-10-24 at 13 27 37" src="https://github.com/SaintpatrickII/Azure-Database-Migration/assets/92804317/a552b356-98a8-4a64-81dc-695acbca46c9">
+
+<img width="560" alt="Screenshot 2023-10-24 at 13 28 00" src="https://github.com/SaintpatrickII/Azure-Database-Migration/assets/92804317/0b5c3266-ef95-4608-a17f-2f4f8dc39046">
+
+- Let's execute the new plan, this should succeed!
+
+<img width="560" alt="Screenshot 2023-10-24 at 13 28 12" src="https://github.com/SaintpatrickII/Azure-Database-Migration/assets/92804317/45558526-4ba3-4fc3-ba14-7c277a561c1b">
+
+<img width="472" alt="Screenshot 2023-10-24 at 13 55 45" src="https://github.com/SaintpatrickII/Azure-Database-Migration/assets/92804317/0b239038-0fb9-4a5c-94fa-b37be27ad8e6">
+
+
