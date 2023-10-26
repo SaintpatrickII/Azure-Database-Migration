@@ -354,12 +354,10 @@
 
 - lets break some stuff ;)
 
-- Lets choose a random table & delete 200 records in Data Studio
-
-<img width="1036" alt="Screenshot 2023-10-26 at 18 43 05" src="https://github.com/SaintpatrickII/Azure-Database-Migration/assets/92804317/3b443ac7-5841-4c0f-8115-b2da901bd3e4">
+- Lets choose a random table & delete 200 records in Data Studio (Originally had 19972 rows)
 
 <img width="1036" alt="Screenshot 2023-10-26 at 18 41 47" src="https://github.com/SaintpatrickII/Azure-Database-Migration/assets/92804317/3f2ca34e-9ba0-4eff-9239-bc7678402fff">
 
-
+<img width="1036" alt="Screenshot 2023-10-26 at 18 43 05" src="https://github.com/SaintpatrickII/Azure-Database-Migration/assets/92804317/3b443ac7-5841-4c0f-8115-b2da901bd3e4">
 
 
