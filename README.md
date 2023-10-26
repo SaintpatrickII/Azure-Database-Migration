@@ -382,3 +382,35 @@
 
 <img width="1417" alt="Screenshot 2023-10-26 at 20 00 24" src="https://github.com/SaintpatrickII/Azure-Database-Migration/assets/92804317/f79721a7-a386-48dd-b6c6-3a72de045820">
 
+# Milestone 6: Geo Replication and Failover
+
+# 1. Set Up Geo-Replication for the Azure SQL Database
+
+- Move to our restored Database, Select replicas & choose 'Create Replica'
+
+![Screenshot 2023-10-26 at 20 18 04](https://github.com/SaintpatrickII/Azure-Database-Migration/assets/92804317/97eef870-0be5-48fd-be5e-7b768a29b2ca)
+
+- now lets create a new SQL server in a different region to begin Geo-Replica in the 'create replica' section
+
+![Screenshot 2023-10-26 at 20 18 58](https://github.com/SaintpatrickII/Azure-Database-Migration/assets/92804317/3bb790af-b9fa-48c8-a247-d4b6bac91499)
+
+![Screenshot 2023-10-26 at 20 19 43](https://github.com/SaintpatrickII/Azure-Database-Migration/assets/92804317/4d8ec305-1f98-4f38-82e0-43412cff63d2)
+
+- Add the new server & Create the new Geo-Replica SQL Database
+
+![Screenshot 2023-10-26 at 20 20 14](https://github.com/SaintpatrickII/Azure-Database-Migration/assets/92804317/45c22919-6f6e-4367-86de-0344da1aacff)
+
+- Lets move into the newly created replication server, under failover groups select the new group created
+
+![Screenshot 2023-10-26 at 20 34 54](https://github.com/SaintpatrickII/Azure-Database-Migration/assets/92804317/4f65eb53-aae5-4b3e-a3f9-ddab7bf7ac04)
+
+- Lets select 'Failover' to swap the primary * secondary databases, we should see the two servers at the bottom swap icons
+
+![Screenshot 2023-10-26 at 20 35 33](https://github.com/SaintpatrickII/Azure-Database-Migration/assets/92804317/7ef0f8d3-4d99-459a-bfc0-6b9d5dcdf846)
+![Screenshot 2023-10-26 at 20 36 32](https://github.com/SaintpatrickII/Azure-Database-Migration/assets/92804317/56a382ae-187d-4020-a632-0cd00896a22e)
+
+- now lets swap again to have our original Database as the primary
+
+
+![Screenshot 2023-10-26 at 20 36 58](https://github.com/SaintpatrickII/Azure-Database-Migration/assets/92804317/b3badaae-f82e-4d0d-96e1-0c2a1ba29042)
+
