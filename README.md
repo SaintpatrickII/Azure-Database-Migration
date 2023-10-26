@@ -400,17 +400,18 @@
 
 ![Screenshot 2023-10-26 at 20 20 14](https://github.com/SaintpatrickII/Azure-Database-Migration/assets/92804317/45c22919-6f6e-4367-86de-0344da1aacff)
 
+# 2. Test Failover and Failback
+
 - Lets move into the newly created replication server, under failover groups select the new group created
 
 ![Screenshot 2023-10-26 at 20 34 54](https://github.com/SaintpatrickII/Azure-Database-Migration/assets/92804317/4f65eb53-aae5-4b3e-a3f9-ddab7bf7ac04)
 
-- Lets select 'Failover' to swap the primary * secondary databases, we should see the two servers at the bottom swap icons
+- Lets select 'Failover' to swap the primary & secondary databases, we should see the two servers at the bottom swap icons
 
 ![Screenshot 2023-10-26 at 20 35 33](https://github.com/SaintpatrickII/Azure-Database-Migration/assets/92804317/7ef0f8d3-4d99-459a-bfc0-6b9d5dcdf846)
 ![Screenshot 2023-10-26 at 20 36 32](https://github.com/SaintpatrickII/Azure-Database-Migration/assets/92804317/56a382ae-187d-4020-a632-0cd00896a22e)
 
-- now lets swap again to have our original Database as the primary
-
+- now lets Failback to have our original Database as the primary
 
 ![Screenshot 2023-10-26 at 20 36 58](https://github.com/SaintpatrickII/Azure-Database-Migration/assets/92804317/b3badaae-f82e-4d0d-96e1-0c2a1ba29042)
 
