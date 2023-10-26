@@ -360,4 +360,25 @@
 
 <img width="1036" alt="Screenshot 2023-10-26 at 18 43 05" src="https://github.com/SaintpatrickII/Azure-Database-Migration/assets/92804317/3b443ac7-5841-4c0f-8115-b2da901bd3e4">
 
+# 2. Restore Database From Azure Database Backup
+
+- In Azure, find the pruduction database & click 'restore'
+
+![Screenshot 2023-10-26 at 18 44 41](https://github.com/SaintpatrickII/Azure-Database-Migration/assets/92804317/f0735d26-0fe0-4fa9-98cd-568b4fe55721)
+
+- Now Restore from a point in tim ebefore the data loss (a few hours before rows were dropped)
+
+![Screenshot 2023-10-26 at 18 46 27](https://github.com/SaintpatrickII/Azure-Database-Migration/assets/92804317/361ab315-8a57-4795-8ca0-239c48fb11fb)
+
+- Now lets go into our SQL server for the Prod Database, here we can find the restored database, lets click on it & connect to it using Data Studio
+
+<img width="1055" alt="Screenshot 2023-10-26 at 19 57 39" src="https://github.com/SaintpatrickII/Azure-Database-Migration/assets/92804317/1c6ddaeb-7f94-43f9-a1dd-e19ef38c7353">
+
+<img width="1055" alt="Screenshot 2023-10-26 at 19 57 51" src="https://github.com/SaintpatrickII/Azure-Database-Migration/assets/92804317/e8d24c50-3cb8-46b0-a5f7-c2aa1983b5fb">
+
+<img width="503" alt="Screenshot 2023-10-26 at 19 58 29" src="https://github.com/SaintpatrickII/Azure-Database-Migration/assets/92804317/88443b73-d2f6-4f25-b1dc-c60ae80b094f">
+
+- If we compare rows now, we can see that The amount of rows is equal to before our mimiced data loss
+
+<img width="1417" alt="Screenshot 2023-10-26 at 20 00 24" src="https://github.com/SaintpatrickII/Azure-Database-Migration/assets/92804317/f79721a7-a386-48dd-b6c6-3a72de045820">
 
