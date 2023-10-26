@@ -415,3 +415,6 @@
 
 ![Screenshot 2023-10-26 at 20 36 58](https://github.com/SaintpatrickII/Azure-Database-Migration/assets/92804317/b3badaae-f82e-4d0d-96e1-0c2a1ba29042)
 
+# Milestone 7: Microsoft Entra Directory Integration
+
+# 1. Configure Microsoft Entra ID for Azure SQL Database
