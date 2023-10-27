@@ -418,3 +418,26 @@
 # Milestone 7: Microsoft Entra Directory Integration
 
 # 1. Configure Microsoft Entra ID for Azure SQL Database
+
+- On Azure navigate to your SQL Server where your Prod Restore is Located, select 'Microsoft Entra ID' on the left-hand side & set admin
+
+<img width="480" alt="Screenshot 2023-10-27 at 12 07 31" src="https://github.com/SaintpatrickII/Azure-Database-Migration/assets/92804317/cf8cf884-a81f-4e28-bc2e-fbeee5199429">
+
+- Select your user as the admin & save admin settings
+
+<img width="959" alt="Screenshot 2023-10-27 at 12 07 42" src="https://github.com/SaintpatrickII/Azure-Database-Migration/assets/92804317/e77dc212-bd20-4296-ac11-bc25dafabe33">
+
+- On Data studio, query a table, then disconnect from the server, then right click -> edit connection
+
+<img width="959" alt="Screenshot 2023-10-27 at 12 08 03" src="https://github.com/SaintpatrickII/Azure-Database-Migration/assets/92804317/cfb3a6df-b0d3-4fc7-8bbe-baafcd11af4b">
+<img width="445" alt="Screenshot 2023-10-27 at 12 08 32" src="https://github.com/SaintpatrickII/Azure-Database-Migration/assets/92804317/77a74974-b9bb-40a6-97c1-ba14ef218fe9">
+
+- Edit connection type to be Azure Active Directory, your admin settings should load immediately
+
+<img width="490" alt="Screenshot 2023-10-27 at 12 08 49" src="https://github.com/SaintpatrickII/Azure-Database-Migration/assets/92804317/de8d6047-13f8-4309-b9bb-c121d6db9198">
+
+- Query the same table as before to check you still have access
+
+<img width="992" alt="Screenshot 2023-10-27 at 12 09 21" src="https://github.com/SaintpatrickII/Azure-Database-Migration/assets/92804317/b7296299-d44b-4104-bd29-a3d73f5ba012">
+
+
